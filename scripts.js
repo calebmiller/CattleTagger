@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		var base32Value = binaryToBase32(binstring)
 
         // Display the encoded values in the output section
-        var encodedValues = "Encoded Tag Values:<br>" + base32Value + "<br>";
+        var encodedValues = "Encoded Tag:<br>" + base32Value + "<br>";
 
         document.getElementById("encoded_values").innerHTML = encodedValues;
     });
